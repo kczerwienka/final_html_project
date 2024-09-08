@@ -1,0 +1,25 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* Normalizer */
+@import url('../../node_modules/modern-normalize/modern-normalize.css');
+
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+
+/* Sections style */
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./lessons.css');
+@import url('./prop-leave-app.css');
+@import url('./teachers.css');
+@import url('./leave-app.css');
+@import url('./reviews.css');
+@import url('./footer.css');
